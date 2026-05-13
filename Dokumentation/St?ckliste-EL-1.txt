@@ -1,0 +1,90 @@
+OE8HSRotor Electrical Partslist
+The Sellers mentiond in this File are the Sellers where i bought my Parts.
+I have no connection to this Companies in any Way.
+You may find the Parts cheaper somewhere.
+
+Farnell:
+
+7 x DistanceBolt M3x10 						1733428
+3 x DistanceBolt M3x15 						2494592
+6 x Nut M3 7016943
+
+I would highly suggest to buy more of this Distancebolts and Nuts because they are very handy and you loose them a lot.
+
+
+Reichelt:
+
+4 x Click on Ferrite Diameter 5mm  			FERRITRING 5,0
+3 x Click on Ferrite Diameter 3,5mm  		FERRITRING 3,5
+1 x RaspberryPi2B 							RASPBERRY PI 2 B
+1 x MicroSdCard 8GB							INTENSO 3413460
+1 x Protoboard								H25PR075
+1 x PCB Connector Cable						PS 25/2G BR	
+2 x Resistor 10KO							METALL 10,0K
+1 x ScrewTerminal 4							AKL 055-04
+2 x SocketStrip								MPE 094-2-012
+2 x Jumper									JUMPER 2,54 SW
+1 x Cable									LITZE BL
+1 x ButtonSwitch							MS 131 RT
+1 x LED Red/Green							LED 5 RG-3
+1 x Resistor 120 Ohm						METALL 120
+1 x PowerSwitch								DS 059 SW
+1 x D2,1mm Connector Female					HEBLM 21
+1 x D2,1mm Connector Male					DELOCK 65396
+2 x Centronic Connector for Housing			SE 5724F
+2 x Centronic Connector for Cable			SE 5724M
+1 x Patchcable 5m							PATCH-300 5 GR
+1 x USB Extension Cable						AK 669-0,3
+1 x Capacitor 10 uF							RAD KXJ 10/400
+1 x Wrapping Tube							SPIRAL 20-3
+			
+
+Amazon:
+1 x DC/DC Converter http://www.amazon.de/Neuftech-Heruntergehen-Schaltreglermodul-verstellbarer-Abwärtswandler/dp/B00QFDRR9S/ref=sr_1_1?ie=UTF8&qid=1463835386&sr=8-1&keywords=dc+dc+wandler
+
+1 x 40pcs Female/Female Jumper Cable
+http://www.amazon.de/Aukru-20cm-female-female-Steckbr%C3%BCcken-Drahtbr%C3%BCcken/dp/B00OL6JZ3C/ref=sr_1_4?ie=UTF8&qid=1462512265&sr=8-4&keywords=jumper+kabel
+
+1 x Metal Box Rittal KL 1514.510
+http://www.amazon.de/Rittal-1514510-Klemmenkasten-KL-1514-510/dp/B0018L5JLK
+
+1 x 10PCS Plugs 10mm
+http://www.amazon.de/Stück-Stopfen-Abdeckung-schwarz-Hartplastik/dp/B00OWVRPN8/ref=sr_1_1?ie=UTF8&qid=1463837510&sr=8-1&keywords=stopfen+10mm
+
+1 x Wifi Stick (its the only one that works well with RaspberryPi in my Opinion)
+http://www.amazon.de/MP02-USB-Modul-Antenne-Raspberry-Computer/dp/B00KAE1ESI?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o02_s00
+
+
+AliExpress:
+
+1 x ArduinoClone
+http://pt.aliexpress.com/item/Free-shipping-UNO-R3-AVR-MicroController-Board-base-on-DIP-ATmega328-with-USB-Cable-For-Arduino/32240189592.html?spm=2114.30010508.3.10.fwxY5i&ws_ab_test=searchweb201556_9,searchweb201602_5_10017_10034_10021_507_10022_10020_10009_10008_10018_10019,searchweb201603_7&btsid=008a2045-263f-4321-83f0-3cb9d97a7e23
+
+1 x CNC Board including Stepper Drivers
+http://pt.aliexpress.com/item/Free-Shipping-4-X-A4988-Stepper-Driver-Module-with-Heat-Sink-CNC-Shield-Expansion-Board-for/32464507585.html?spm=2114.30010508.3.130.MgiELf&ws_ab_test=searchweb201556_9,searchweb201602_5_10017_10034_10021_507_10022_10020_10009_10008_10018_10019,searchweb201603_7&btsid=eec38d93-b556-4900-9a4b-cebde8d80362
+
+Printed Parts:
+1 x 22_USBBuchse
+
+Mechanical Parts:
+4 x Screw M3x15
+4 x Spacer M3
+4 x Nut M3
+1 x Hook for MetalBox
+
+Build Materials:
+
+Shrinking Tubes in different colour and Diameters
+Solder 
+Siliconcable 2,5mm^2
+
+AluminiumTape
+http://www.amazon.de/tesa-Aluminiumband-selbstklebend-50mm-silber/dp/B0049OVT1C/ref=sr_1_3?ie=UTF8&qid=1463837788&sr=8-3&keywords=aluminiumklebeband
+
+You may also want to buy:
+
+1 x 24V Power-Supply
+http://www.amazon.de/KFD-Universal-Transformator-Bildschirm-Stromkabel/dp/B00ZEDZRGA?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s01
+
+1 x Velcro "Zipties"
+http://www.amazon.de/Hama-Klett-Kabelbinder-Schnalle-St%C3%BCck-farbig/dp/B0002W6A46?ie=UTF8&psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00

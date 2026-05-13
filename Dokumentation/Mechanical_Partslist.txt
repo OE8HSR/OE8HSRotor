@@ -1,0 +1,26 @@
+Mechanical PartsList:
+
+4 x FastbuildScrew M6x60
+4 x Spacer M6
+1 x Nut ExtraLong M10
+2 x Nut ExtraLong M8
+1 x ThreadedRod M8x210
+1 x Ball Bearing 6000
+3 x Ball Bearing 6006
+1 x Ball Bearing 51114
+1 x Screw M10x50
+1 x Nut M10
+2 x Spacer M10
+1 x Capping Nut M10
+2 x StepperMotors Nema17
+4 x Screw M3x20
+4 x Screw M3x10
+8 x Spacer M3
+4 x Screw M6x50
+8 x Spacer M6
+4 x Nut M6
+1 x Screw M10x30
+2 x Spacer M10 (bigger outer Diameter)
+2 x Screw M2.5x10
+2 x Spacer M2.5
+2 x Nut M2.5

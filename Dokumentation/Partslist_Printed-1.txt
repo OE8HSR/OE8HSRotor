@@ -1,0 +1,33 @@
+Parts to be Printed
+
+1 x 1-AbtriebWelleKurz
+1 x 2-AbtriebsWelleLang
+2 x 3-Seitenverlängerung
+1 x 4-AbtriebsradZ60
+1 x 5-Drehteil
+1 x 6-UmlenkradZ10Z50
+1 x 7-Verbindungsbolzen
+1 x 8-MotorElz10
+1 x 9-AbtriebswelleDistanz
+1 x 13-Innenverzahnung
+2 x 14-LagerhalterungOben
+1 x 15-MotorAzZ10
+1 x 16-Stativhalerung (USE INFILL 80% ON THAT PART!!)
+1 x 17-DrehteilAbdeckKappe
+1 x 21-SteckerHalterung
+1 x 22-USBBuchse
+
+
+
+For ElkAntenna on Top of the Rotor print aditionally:
+11-ELKMountObenLang
+12-ELKMountUnten
+
+For ElkAntenna on Side of the Rotor print aditionally:
+18-Seitenadapter
+
+For ArrowAntenna on Side of the Rotor print aditionally:
+19-ArrowSeitenAdapter
+
+For ArrowAntenna on Side of the Rotor on a Tube print aditionally:
+20-ArrowBoomAdapter
