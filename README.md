@@ -1,6 +1,6 @@
 # OE8HSRotor
 
-Kleiner **Azimut- und Elevations-Antennenrotor**, überwiegend **3D-gedruckt**, mit Schrittmotorantrieb und Arduino-Firmware. Das Projekt entstand als Eigenbau für den Amateurfunk; Steuerung erfolgt seriell (EasyComm-ähnliches Protokoll).
+Kleiner **Azimut- und Elevations-Antennenrotor**, überwiegend **3D-gedruckt**, mit Schrittmotorantrieb und Arduino-Firmware. Das Projekt entstand **2014** als Eigenbau für den Amateurfunk; Steuerung erfolgt seriell (EasyComm-ähnliches Protokoll). Stand heute gibt es **mechanisch und elektronisch** viele sinnvolle **Weiterentwicklungs- und Vereinfachungsmöglichkeiten** — die vorliegende Doku und Firmware sind bewusst als **historischer Referenzstand** zu verstehen.
 
 **Upstream-Repository:** [OE8HSR/OE8HSRotor auf GitHub](https://github.com/OE8HSR/OE8HSRotor)
 
@@ -9,11 +9,17 @@ Kleiner **Azimut- und Elevations-Antennenrotor**, überwiegend **3D-gedruckt**, 
 ## Überblick
 
 - **Zwei Achsen:** Azimut (AZ) und Elevation (EL), jeweils mit NEMA-17-Schrittmotor und Getriebeübersetzung (in der Firmware als `RATIOAZ` / `RATIOEL` hinterlegt).
-- **Nullstellung:** mechanischer Referenzschalter (`ZEROSW`); beim Start wird darauf referenziert.
+- **Nullstellung (`ZEROSW`):** Das ist **kein automatischer Homing-Endschalter**. Nach dem Einschalten richtest du die **AZ-Achse von Hand nach Norden** aus und stellst **EL waagerecht** ein. Anschließend drückst du den **Zero-Schalter** manuell — dadurch werden die Schrittmotoren **aktiviert** und die aktuelle Lage als **Referenz (0° / 0°)** **festgehalten** (Motoren halten die Position).
 - **Serielle Schnittstelle:** 19200 Baud; Befehle für Zielwinkel, Positionsabfrage und Reset (Details in den Kommentaren der `.ino`-Dateien).
 - **Firmware-Basis:** inspiriert von früher [SatNogs](https://satnogs.org)-Arduino-Firmware (Hinweis im Quellcode der Originalvariante).
 
 **Sicherheit:** Rotierende Teile und automatische Bewegung können Verletzungen oder Beschädigungen verursachen. Nutzung auf **eigenes Risiko**; Finger und teure Hardware von beweglichen Teilen fernhalten.
+
+### Stand der Elektronik (2014 vs. heute)
+
+Die beschriebene **Elektronik** (Arduino, CNC-Shield, Raspberry Pi als Umgebung usw.) entspricht **nicht mehr** dem heutigen Stand der Technik und hat **deutliches Verbesserungspotenzial**: weniger Bauteile, modernere Treiber, bessere Integration von USB/WLAN und klarere Software-Architektur wären heute deutlich einfacher umzusetzen.
+
+Ein Beispiel für eine **kompaktere Zwei-Achsen-Steuerung** mit integriertem **ESP32** und **TMC2209** ist das Board [**TMC2209 Pen Laser V2**](http://wiki.fluidnc.com/en/hardware/official/TMC2209_Pen_Laser_V2) im FluidNC-Wiki. Mit passender Firmware (z. B. **FluidNC** und einer darauf aufsetzenden Rotor-Logik bzw. Schnittstelle) ließen sich **Elektronikaufwand** und **Bedienung** gegenüber dem 2014er-Aufbau **spürbar vereinfachen** — das ist jedoch **kein Teil dieses Repos**, sondern eine mögliche Richtung für einen Nachfolgebau.
 
 ---
 
@@ -58,6 +64,7 @@ Alle Modelle liegen unter [`STL/`](STL/). Die gedruckte Stückliste verweist u. 
 3. Passenden Sketch wählen (Standard **MK-1** oder **gpredict-Hamlib**-Variante).
 4. **Pin-Belegung** und **Getriebefaktoren** (`SPR`, `RATIOAZ`, `RATIOEL`) an deine Mechanik anpassen, falls abweichend.
 5. Seriell **19200** Baud; für gpredict ggf. `rotctld` wie im Kopf der Hamlib-Variante beschrieben.
+6. **Inbetriebnahme:** AZ von Hand nach Norden, EL waagerecht, dann `ZEROSW` drücken (siehe Abschnitt *Überblick*).
 
 ---
 
